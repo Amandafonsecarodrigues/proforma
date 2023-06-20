@@ -4,16 +4,20 @@ body h1,p{
 }
 
 #navcor{
-    background-color: #EFEFEF !important;
+    background-color: #000000f6 !important;
 }
 
 #navbarNav{
-    padding-left: 780px;
+    padding-left: 45rem;
 }
 
 .navbar-brand img{
     margin-left: 30px;
     width: 150px;
+}
+
+#navbarNav ul li a{
+    color: #FFFFFF;
 }
 
 #navbarNav ul li a:hover{
@@ -318,11 +322,24 @@ text-align: center;
     float: left;
 }
 
-.rodape .container .grid .row .col-6 li{
+.rodape .container .grid .row .col-4{
+    padding: 30px 45px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.rodape .container .grid .row .col-4 li{
     display: flex;
-    padding: 40px;
     align-items: center;
     justify-content: center;
+}
+
+
+.rodape{
+    color:#efefefe7
 }
 
 .opiniao .opiniao-text{
@@ -355,7 +372,7 @@ color: #0F241D;
     align-items: center;
     justify-content: center;
     padding: 90px 40px;
-    padding-bottom: 100image.pngpx;
+    padding-bottom: 100;
     background-color: #EFEFEF;
 }
 
@@ -405,3 +422,191 @@ color: #0F241D;
     fill: #D22727;
 }
 
+.infor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9F9F9;
+    padding: 7rem 2rem;
+}
+
+.infor .row .grid .col-4{
+    display: inline-block;
+    width: 33%;
+    align-items: center;
+    text-align: center;
+}
+
+.preco{
+    background-color: #1E181C;
+    padding-top: 4rem
+}
+
+.preco .backfoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 0;
+
+}
+
+.preco .backfoto .part2preco img{
+    justify-content: flex-end;
+    margin: 0 0 0 0;
+}
+
+.preco .backfoto .part1preco{
+    width: 50%;
+}
+
+.preco .backfoto .part2preco h1,h2{
+    text-align: end;
+    margin-right: 4rem;
+    
+}
+
+#textproforma{
+    display: flex;
+}
+
+#redtext{
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-size: 6rem;
+    margin: 0 0 0 0;
+}
+
+#textomini{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 4rem;
+
+}
+
+#textoimpo{
+    font-weight: bolder;
+    color: #D22727;
+    font-size: 6rem;
+    margin: 0 0 0 0;
+
+}
+
+.preco .backfoto .part2preco{
+    width: 50%;
+    justify-content: flex-end;
+    display: block;
+
+}
+
+
+
+
+@media only screen and (max-width: 1200px ) {
+    .part1 {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .part1 .sobre-img img{
+        width: 220%;
+    }
+
+    .part1 .sobre-img{
+        align-items: center;   
+    }
+    
+    .part1 .sobre-text{
+        text-align: center ;
+        width: 100%;
+    }
+    .black-container{
+        background-color: black;
+        align-items: center;
+    }
+    .black-container .container .regras .grid .row .col-4{
+        display: block;
+        width: 100%;
+       
+    }
+    .black-container img{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        width: auto;
+
+    }
+    .container-red{
+        align-items: center;
+    
+    }
+    .container-red .container .alvo .grid .row .col-3{
+        display: block;
+        width: 100%;
+       
+    }
+    .container-red .container .alvo .grid .row .col-3 .card-peso{
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        width: 90%;
+        margin-top: 15px ;
+    }
+    .preco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .preco .backfoto .part1preco img{
+        display: none;
+        visibility: hidden;
+    }
+    .preco .backfoto .part2preco{
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .preco .backfoto .part2preco img{
+        justify-content: center;
+    }
+
+    }
+
+    @media only screen and (max-width: 830px) {
+        .equipe{
+           align-items: center;
+           display: flex;
+           justify-content: center;
+        }
+    
+        .equipe .container .equipe-text{
+            width: 100%;
+        }
+    
+        .equipe .container .grid .row .col-6{
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 1031px){
+        .infor{
+            text-align: center;
+        }
+        .infor .container-infor .row .grid .col-4{
+            display: block;
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width:773px){
+        .rodape{
+            display: block;
+        }
+
+        .rodape .container .grid .row .col-4{
+            width: 100%;
+        }
+    }
